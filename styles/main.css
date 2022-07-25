@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header, .footer {
+    display: flex;
+    flex: 1 1 2.5vh;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.jphp {
+    padding-right: 30%;
+    padding-left: 10px;
+    font-size: 24px;
+    margin: 5px;
+    color: #f9faf8;
+    
+}
+
+a:link {
+    color: #f9faf8;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.hlink {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.uppercont1 {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 20%;
+    background-color: #1f2937;
+    margin-top: 0;
+}
+
+.uppercont2 {
+    display: flex;
+    flex: 1 1 20%;
+    flex-flow: column nowrap;
+    
+}
+
+.thumbnails {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tnimg {
+    height: 125px;
+    width: 125px;
+    border: 1px solid #3882f6;
+    border-radius: 12px;
+}
+
+.lowercont1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+    background-color: #e5e7eb;
+
+}
+
+.lowercont2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dndcont {
+    height: 150px;
+    width: 40vw;
+    background-color:#3882f6;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.dnd {
+    display: flex;
+    flex-direction: column;
+}
